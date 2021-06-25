@@ -84,7 +84,7 @@ colors.forEach((color)=>{
             mapSettings('color', 'orange');
         }else
         if(color.classList.contains("blue")){
-            mapSettings('color', 'cyan');
+            mapSettings('color', 'green');
         }else{
             mapSettings('color', 'purple');
     }
@@ -109,8 +109,6 @@ const settingsContainer = document.getElementById('settingscontainer');
 
 document.querySelector('#settings > img').addEventListener('click', ()=>{
    console.log(settingsContainer);
-    settingsContainer.style.visibility = 'visable';
+    settingsContainer.style.visibility = 'visible';
     settingsContainer.style.opacity = 1;
 })
-
-//We are on the

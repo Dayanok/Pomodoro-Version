@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
 :root{
 --orange: #f87070;
---greean: #70f3f8;
+--green: #70f3f8;
 --purple: #d881f8;
 --light-blue: #d7e0ff;
 --dark-blue: #1e213f;
@@ -292,7 +292,7 @@ h2{
     background-color: var(--orange);
   }
   .blue {
-    background-color: var(--cyan);
+    background-color: var(--green);
   }
   .purple {
     background-color: var(--purple);
