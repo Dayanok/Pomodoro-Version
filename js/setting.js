@@ -108,8 +108,9 @@ apply.addEventListener('click', (e)=>{
 const settingsContainer = document.getElementById('settingscontainer');
 
 document.querySelector('#settings > img').addEventListener('click', ()=>{
-//    console.log(settingsContainer);
+   console.log(settingsContainer);
     settingsContainer.style.visibility = 'visable';
     settingsContainer.style.opacity = 1;
-
 })
+
+//We are on the
