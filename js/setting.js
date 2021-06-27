@@ -39,13 +39,13 @@ const updateSettings = () =>{
 }
 
 const inc = (input) => {
-    const inputEl = documement.getElementById(input)
+    const inputEl = document.getElementById(input)
     inputEl.stepUp(1);
     mapSettings(input, inputEl.value)
 }
 
 const dec = (input) => {
-    const inputEl = documement.getElementById(input)
+    const inputEl = document.getElementById(input)
     inputEl.stepDown(1);
     mapSettings(input, inputEl.value)
 }
